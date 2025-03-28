@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333;
+}
+
+.top{
+    height: 22vh;
+    width: 100%;
+
+    display: flex;
+
+    .cuadradinho{
+        background-color: lime;
+        height: 100%;
+        aspect-ratio: 1/1;
+    }
+
+    .galeria_container{
+        background-color: peru;
+        height: 100%;
+        width: 300px;
+    }
+}
+
+.middle{
+    height: 56vh;
+    width: 100%;
+}
+
+.bottom{
+    height: 22vh;
+    width: 100%;
+}
